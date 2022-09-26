@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Megrim&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+
+/*==========================NAVBAR STYLING===========================*/
+
+.navbar-con{
+    width: 100%;
+    height: 8vmax;
+    border: 1px solid black;
+    background: black;
+}
+.nav{
+    width: 100%;
+    height: 8vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    position: fixed;
+}
+.nav-name {
+    border-radius: 1vmax;
+    background: rgb(32, 185, 223);
+    padding: 1vmax 2vmax;
+    margin-left: 7%;
+    font-size: 1vmax;
+}
+.nav-name a{
+    color: #bcf7ff;
+}
+.nav-name a:hover{
+    color: blanchedalmond;transition: 0.5s;
+
+}
+
+.navbar-con .nav-info{
+    display: flex;
+    list-style: none;
+    margin-right: 7%;
+}
+.nav-info a{
+    border-radius: 1vmax;
+    background: rgb(32, 185, 223);
+    padding: 1vmax;
+    color: #bcf7ff;
+    margin-left: 30px;
+    font-size: 1vmax;
+    text-transform: uppercase;
+}
+.nav-info a:hover{
+    color:blanchedalmond; 
+    box-shadow: 1px 1px 5px;
+    transition: 0.5s;
+}
+
+/*NAVBAR END*/
+
+
+/*==========================BODY STYLING===========================*/
+
+
+/*BOXES*/
+
+.box{
+    width: 2vmax;
+    height: 2vmax;
+    border: 1px solid black;
+    background: black;
+    color: #bcf7ff;
+    font-size: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box:hover{
+    background:#3EDBF0; 
+    transform: rotate(360deg);
+    transition: all 400ms;
+    border-radius: 1vmax;
+    transition-delay: -50ms;
+    box-shadow: 2px 2px 30px;
+}
+
+/*BOXES END*/
+
+
+/*=============================================================================*/
+
+
+/*HOME*/
+
+.home-box-con{
+    width: 100%;
+    height: 12vmax;
+    border: 1px solid black;
+}
+
+.box-con1{
+    width: 100%;
+    height: 2vmax;
+    display: flex;
+    border: 1px solid black;
+}
+.box-con2{
+    width: 100%;
+    height: 2vmax;
+    border: 1px solid black;
+    display: flex;
+}
+.box-con3{
+    width: 100%;
+    height: 2vmax;
+    border: 1px solid black;
+    display: flex;
+}
+.box-con4{
+    width: 100%;
+    height: 2vmax;
+    border: 1px solid black;
+    display: flex;
+}
+.box-con5{
+    width: 100%;
+    height: 2vmax;
+    border: 1px solid black;
+    display: flex;
+}
+.box-con6{
+    width: 100%;
+    height: 2vmax;
+    border: 1px solid black;
+    display: flex;
+}
+
+.text-con{
+    width: 100%;
+    height: 26vmax;
+    border: 1px solid black;
+    background: url("background2.png");
+}
+.profile-con{
+    width: 100%;
+    height: 10vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 10%;
+    height: 10vmax;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #3EDBF0;
+}
+
+.profile img{
+    width: auto;
+    height: 10vmax;
+    object-fit: cover;
+}
+.social-con{
+    margin-top: 2vmax;
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: center;
+}
+.social-con .p{
+    color: #bcf7ff;
+    margin-top: 3vmax;
+    text-align: center;
+}
+.social-con .p a{
+    color: #bcf7ff;
+    
+}
+.social-con .p a:hover{
+    color: rgb(182, 42, 0);
+    
+    transition: all 600ms;
+    transition-delay: -5ms;
+    
+}
+.social-con .icon{
+    margin-top: 2vmax;
+    color: #bcf7ff;
+    text-align: center;
+}
+.social{
+    width: 20%;
+    height: 3vmax;
+}
+.social ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social ul .facebook{
+    width: 2vmax;
+    height: 2vmax;
+}
+.social ul .facebook:hover{
+    transition: all 400ms;
+    border-radius: 1vmax;
+    transition-delay: -50ms;
+}
+.social ul .twitter{
+    width: 2vmax;
+    height: 2vmax;
+}
+.social ul .instagram{
+    width: 2vmax;
+    height: 2vmax;
+}
+.social ul .github{
+    width: 2vmax;
+    height: 2vmax;
+}
+.social ul .github svg{
+    fill: wheat;
+}
+
+/*HOME END*/
+
+
+/*=============================================================================*/
+
+
+/*PROFILE*/
+
+.profile-box-con{
+    width: 100%;
+    height: 38vmax;
+    border: 1px solid black;
+    background: url("background2.png");
+}
+.h3profile-con{
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+.h3profile-con:hover{
+    padding: 0 0 1vmax 0 ;
+    transition: all 400ms;
+
+}
+.h3profile-con h3{
+    border-radius: 1vmax;
+    padding: 1vmax;
+    background: rgb(32, 185, 223);
+    margin-top: 4vmax;
+}
+.h3profile-con h3 a{
+    color: #bcf7ff;
+}
+.h3profile-con h3 a:hover{
+    color:blanchedalmond;
+}
+.profile-text-con{
+    margin-top: 2vmax;
+    width: 100%;
+    height: 30vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-text{
+    width: 70%;
+    height: 28vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile-text ul li{
+    margin: 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-text ul li img{
+    width: 40%;
+    border-radius: 2vmax;
+}
+.profile-text ul li img:hover{
+    transition: all 400ms;
+    padding: 1vmax 0px 0px 0px;
+}
+
+/*PROFILE END*/
+
+
+/*=============================================================================*/
+
+
+/*SKILLS*/
+
+.skills-box-con{
+    width: 100%;
+    height: 38vmax;
+    border: 1px solid black;
+    background: url("background2.png");
+}
+.h3skills-con{
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+.h3skills-con:hover{
+    padding: 0 0 1vmax 0 ;
+    transition: all 400ms;
+}
+.h3skills-con h3{
+    border-radius: 1vmax;
+    padding: 1vmax;
+    background: rgb(32, 185, 223);
+    margin-top: 4vmax;
+}
+.h3skills-con h3 a{
+    color: #bcf7ff;
+}
+.h3skills-con h3 a:hover{
+    color:blanchedalmond;
+}
+
+.skills-con{
+    width: 100%;
+    height: 32vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-con .skills-icon{
+    margin-left: 1vmax;
+    width: 10%;
+    height: 28vmax;
+    text-align: center;
+}
+.skills-con .skills-icon p{
+    margin-top: 40%;
+    color: #bcf7ff;
+}
+
+.skills-con .skills-bar{
+    margin-left: 3vmax;
+    width: 50%;
+    height: 27vmax;
+}
+.skills-con .skills-bar .bar-con{
+    margin-top: 5%;
+    width: 100%;
+    height: 3vmax;
+}
+.skills-con .skills-bar .bar-con p{
+    margin-top: 1vmax;
+    color: #bcf7ff;
+}
+.skills-con .skills-bar .bar-con p:hover{
+    color: black;
+}
+.skills-con .skills-bar .bar-con:hover{
+    transition: all 1s ease-in;
+    color: black;
+}
+.skills-con .skills-bar .bar-con .html{
+    width: 8%;
+    height: 3vmax;
+    border: 1px solid wheat;
+    border-radius: 1vmax;
+    background:#bcf7ff;
+}
+.skills-con .skills-bar .bar-con .html:hover{
+    width: 100%;
+    transition: all 1s ease-in;
+    background: #3EDBF0;
+    text-align: end;
+}
+.skills-con .skills-bar .bar-con .css{
+    width: 8%;
+    height: 3vmax;
+    border: 1px solid wheat;
+    border-radius: 1vmax;
+    background:#bcf7ff;
+
+}
+.skills-con .skills-bar .bar-con .css:hover{
+    width: 60%;
+    transition: all 1s ease-in;
+    background: #3EDBF0;
+    text-align: end;
+}
+.skills-con .skills-bar .bar-con .javascript{
+    width: 8%;
+    height: 3vmax;
+    border: 1px solid wheat;
+    border-radius: 1vmax;
+    background:#bcf7ff;
+}
+.skills-con .skills-bar .bar-con .javascript:hover{
+    width: 40%;
+    transition: all 1s ease-in;
+    background: #3EDBF0;
+    text-align: end;
+}
+.skills-con .skills-bar .bar-con .python{
+    width: 8%;
+    height: 3vmax;
+    border: 1px solid wheat;
+    border-radius: 1vmax;
+    background:#bcf7ff;
+}
+.skills-con .skills-bar .bar-con .python:hover{
+    width: 20%;
+    transition: all 1s ease-in-out;
+    background: #3EDBF0;
+    text-align: end;
+}
+.data{
+    font-size: 1vmax;
+    margin-top: 2vmax;
+    color: #bcf7ff;
+    text-align: center;
+}
+
+/*SKILLS END*/
+
+
+/*=============================================================================*/
+
+
+/*ABOUT*/
+
+.about-box-con{
+    width: 100%;
+    height: 38vmax;
+    border: 1px solid black;
+    background: url("background2.png");
+}
+.h3about-con{
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+.h3about-con:hover{
+    padding: 0 0 1vmax 0 ;
+    transition: all 400ms;
+}
+.h3about-con h3{
+    border-radius: 1vmax;
+    padding: 1vmax;
+    background: rgb(32, 185, 223);
+    margin-top: 4vmax;
+}
+.h3about-con h3 a{
+    color: #bcf7ff;
+}
+.h3about-con h3 a:hover{
+    color:blanchedalmond;
+}
+.about-info-con{
+    width: 100%;
+    height: 32vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-info{
+    width: 65%;
+    height: 25vmax;
+}
+.about-info-top{
+    width: 100%;
+    height: 12vmax;
+}
+.about-info-top p{
+    font-size: 1vmax;
+    margin-top: 3vh;
+    color: #bcf7ff;
+    text-align: center;
+}
+.about-info-top p:hover{
+    border-radius: 2vmax;
+    color: black;
+    background-color: aqua;
+    transition: all 1s;
+    text-shadow: 3px 5px 6px;
+}
+.about-info-buttom{
+    width: 100%;
+    height: 13vmax;
+    color: #bcf7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info-buttom ul li{
+    margin-top: 1vmax;
+}
+.about-info-buttom ul:hover{
+    background: #3EDBF0;
+    border-radius: 1vmax;
+    color: black;
+    transition: all 1s;
+    text-shadow: 3px 5px 6px;
+}
+
+/*ABOUT END*/
+
+
+/*=============================================================================*/
+
+
+/*CONTACT*/
+.contactme-box-con{
+    width: 100%;
+    height: 38vmax;
+    border: 1px solid black;
+    background: url("background2.png");
+}
+.h3contactme-con{
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+.h3contactme-con:hover{
+    padding: 0 0 1vmax 0 ;
+    transition: all 400ms;
+}
+.h3contactme-con h3{
+    border-radius: 1vmax;
+    padding: 1vmax;
+    background: rgb(32, 185, 223);
+    margin-top: 4vmax;
+}
+.h3contactme-con h3 a{
+    color: #bcf7ff;
+}
+.h3contactme-con h3 a:hover{
+    color:blanchedalmond;
+}
+
+.contact{
+    width: 50%;
+    height: 23vmax;
+    margin-left: 25%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    width: 100%;
+    height: 23vmax;
+    text-align: center;
+    text-align-last: center;
+    text-justify: auto;
+}
+.contact-info input{
+    margin-top: 10px;
+    width: 71%;
+    height: 40px;
+    background: rgb(32, 185, 223);
+    border-radius: 1vmax;
+    color: #bcf7ff;
+    transition: 0.5s;
+}
+.contact-info input:hover{
+    background-color: #bcf7ff;
+    box-shadow: 0px 0px 10px 2px;
+}
+.contact-info textarea{
+    margin-top: 10px;
+    width: 70%;
+    height: 6vmax;
+    background-color:  #bcf7ff;
+    border-radius: 1vmax;
+    resize: none;
+}
+.contact-info input.button{
+    width: 30%;
+    height: 3vmax;
+    color: darkgray;
+}
+
+/*CONTACT END*/
+
+
+.home-pagemain-button{
+    position: absolute;
+    left: 94%;
+    width: 5%;
+    height: 4vmax;
+    background: #ffffff5d;
+    border-radius: 2vmax 1vh 2vmax 2vmax;
+    z-index: 20030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-pagemain-button:hover{
+    background: #bcf7ff;
+    transition: all 1s;
+}
+.home-pagemain-button a p{
+    font-size: 2vmax;
+    color: #1c636def;
+}
+.home-pagemain-button a p:hover{
+    color: black;
+}
+footer{
+    font-size: 1vmax;
+    text-align: center;
+    color: #bcf7ff;
+}
