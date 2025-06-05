@@ -86,12 +86,17 @@ body{
 }
 
 .box:hover{
-    background:#3EDBF0; 
+    background:#3EDBF0;
     transform: rotate(360deg);
     transition: all 400ms;
     border-radius: 1vmax;
     transition-delay: -50ms;
     box-shadow: 2px 2px 30px;
+}
+
+.box.special {
+    font-weight: bold;
+    color: #3EDBF0;
 }
 
 /*BOXES END*/
